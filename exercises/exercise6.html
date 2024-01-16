@@ -5,39 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
-    <style>
-        main,
-        footer {
-            display: flex;
-        }
-
-        body {
-            background-color: rgb(193, 184, 207);
-        }
-
-        article {
-            background-color: rgb(208, 208, 179);
-            margin: 5px;
-        }
-
-        .big {
-            flex-grow: 2;
-            background-color: rgb(115, 116, 179);
-        }
-        .small {
-            flex: 1;
-            background-color: rgb(108, 107, 144);
-        }
-    </style>
+    <link rel="stylesheet" href="/styles/style3.css">
 </head>
 
 <body>
 
-    <header>
+    <header id="main-header">
         <h1> Flex Box </h1>
     </header>
 
-    <nav>
+    <nav id="main-nav">
         <ul>
             <li><a href="#" class="nav-link">Home</a></li>
             <li><a href="#" class="nav-link">About</a></li>
@@ -45,23 +22,23 @@
         </ul>
     </nav>
 
-    <main>
-        <article class="big">
+    <section id="main-content">
+        <article class="content-article" class="big">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorem pariatur quaerat dolorum inventore
             dignissimos aut nemo. Ex voluptate sunt, voluptatem magnam cum odit, perferendis sit aliquam nulla, enim
             doloremque!
         </article>
 
-        <article class="small">
+        <article class="content-article" class="small">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi corrupti sapiente impedit nihil ad dolorem
             quas sed! Labore quo rerum at accusamus eligendi autem dolores repudiandae eum officiis, ipsam ipsa?
         </article>
 
-        <article class="big">
+        <article class="content-article" class="big">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi corrupti sapiente impedit nihil ad dolorem
             quas sed! Labore quo rerum at accusamus eligendi autem dolores repudiandae eum officiis, ipsam ipsa?
         </article>
-    </main>
+    </section>
 
     <aside id="sidebar">
         <h2>Recent Posts</h2>
@@ -72,7 +49,8 @@
         </ul>
     </aside>
 
-    <footer>
+
+    <footer id="main-footer">
         <p>&copy; 2023 My Website. All rights reserved.</p>
     </footer>
 
