@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-  background-color: #0055a9;
+  background-color: #2f90f2;
   color: white;
   padding: 10px;
   text-align: center;
@@ -54,7 +54,7 @@ a {
 }
 
 a:link {
-  color: rgb(123, 0, 255);
+  color: rgb(12, 0, 80);
   background-color: transparent;
   text-decoration: none;
 }
@@ -83,7 +83,6 @@ address {
 
 address a {
   color: #0066cc;
-  /* Dark blue color similar to hamk.fi */
 }
 
 footer {

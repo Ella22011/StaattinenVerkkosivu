@@ -29,7 +29,7 @@ body {
 
 #sidebar {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 300px;
     width: 150px;
     border-right: 1px solid #D7DBDD;
